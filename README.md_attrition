@@ -1,0 +1,59 @@
+# HR Employee Attrition
+## by Sknider Mbaisi
+
+
+## Dataset
+
+The HR Employee Attrition dataset has information for 1,470 employees with 35 variables which are a mix of 26 categorical variables and 9 numerical variables. The dataset will be used to explore employee attrition and its relationship with the other variables, and also relationship among the different variables independent of attrition will be explored.
+
+
+This is a fictional data set from kaggle created by IBM data scientists. Details for some of the categorical variables are:
+
+Education: 1 'Below College', 2 'College', 3 'Bachelor', 4 'Master', 5 'Doctor'
+
+EnvironmentSatisfaction: 1 'Low', 2 'Medium', 3 'High', 4 'Very High'
+
+JobInvolvement: 1 'Low', 2 'Medium', 3 'High', 4 'Very High'
+
+JobSatisfaction: 1 'Low', 2 'Medium', 3 'High', 4 'Very High'
+
+PerformanceRating: 1 'Low', 2 'Good', 3 'Excellent', 4 'Outstanding'
+
+RelationshipSatisfaction: 1 'Low', 2 'Medium', 3 'High', 4 'Very High'
+
+WorkLifeBalance: 1 'Bad', 2 'Good', 3 'Better', 4 'Best'
+
+Dataset: https://www.kaggle.com/datasets/whenamancodes/hr-employee-attrition 
+
+
+
+## Summary of Findings
+
+During exploration I removed variables with constant values as they would bring no impact on the exploration, these variables are: EmployeeCount, Over18, StandardHours
+
+Observations from the explorations indicate that:
+
+Most employees stay with the organization compared to those who leave, are married, are males, do not work overtime, did life sciences, are in Research and Development department,travel with majority travelling rarely, are Sales Executives, are in their late twenties, mid and late thirties, have at least a bachelor, have either high or very high environment satisfaction and have a high job involvement.
+
+In job satisfaction, majority of the employees have a high or very high satisfaction. The performance rating is mostly excellent. Relationship satifaction is either high or very high for most employees. Most employees have a better work life balance with the following majority having a good work life balance. 
+
+Highest attrition is coming from technical degree and marketing education fields respectively. Highest attrition is coming from employees with Sales Representative title and sales department has the highest attrition. Twenties to mid thirties age range has the highest attrition.
+
+Attrition is highest among employees in the age range of between late twenties to mid-thirties, those with a longer distance from home, those with a lower daily rate of between 250 - 500, employees monthly income of below 5000, employees who have worked in few companies say less than 2, workers with a low percent salary hike of less than 12.5, employees with less than 10 working years, employees who received their last training in less than 3 years, people who have been in the company for less than 3 years, less than 3 years role incumbents, people with no promotion and those with less than an year with their current managers.
+
+Monthly income and Job level have the highest correlation. In addition, there is a high correlation between some variables such as monthly income and job level, total working years and job level, monthly income and total working years, percentage salary hike and performance rating, years at company and year in current role, years at company and years with current manager as well as, years in current role and years with current manager. This high correlation shows that these variables have a relationship that strengthens each other.
+
+In conclusion, it was interesting to observe that, in the earlier observed high attrition age range(18-35), looking at the employees who have left males are the majority. On the other hand, looking at the employees who have not left within the same range females are the majority.
+
+
+## Key Insights for Presentation
+
+The presentation will not change from what is already in the eploration step. The presentation will include:
+
+High Impact Variables on Attrition: An overview of categorical variables in the dataset that show a significant impact on attrition. Highest attrition is coming from overtime employees, those of single marital status and sales department.
+
+
+Interesting Observations: Interesting observation from the dataset. Generally there are more males than females. However, it is interesting that on the earliest ages between 18 to twenty years old, females are more than males. Also on the later ages from fifty two years old and over the gender gap is significantly reduced
+
+
+Variables Correlations: Lastly it will include a correlation visualisation that shows the correlation amongst the different variables independent of the variable of interest which is attrition. Monthly income and Job level have the highest correlation. In addition, there is a high correlation between some variables such as monthly income and job level, total working years and job level, monthly income and total working years, percentage salary hike and performance rating, years at company and year in current role, years at company and years with current manager as well as, years in current role and years with current manager. This high correlation shows that these variables have a relationship that strengthens each other.
